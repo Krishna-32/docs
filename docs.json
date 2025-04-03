@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Mint Starter Kit",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#f74f4d",
+    "light": "#f74f4d",
+    "dark": "#f74f4d"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -14,42 +14,16 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Components",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "AnimatedLine",
+              "GooglyEyes",
+              "InfiniteTextMenu",
+              "Marquee",
+              "PintrestLayout",
+              "SmoothScroll",
+              "TextHover",
+              "TextRandomizer"
             ]
           }
         ]
@@ -58,19 +32,19 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
+          "anchor": "Website",
           "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "icon": "browser"
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "anchor": "Github",
+          "href": "https://github.com/Krishna-32/Dimensions.js",
+          "icon": "github"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Portfolio",
+          "href": "https://mainpf-studio.vercel.app/",
+          "icon": "user-tie"
         }
       ]
     }
@@ -83,13 +57,13 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:krishnagupta33937@gmail.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Portfolio ",
+      "href": "https://mainpf-studio.vercel.app/"
     }
   },
   "footer": {
