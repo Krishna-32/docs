@@ -1,0 +1,44 @@
+---
+title: 'Text Hover'
+description: "TextHover component that displays two text elements with a hoverable image between them."
+---
+  
+
+## Parameters
+
+The TextHover component accepts the following props:
+
+| Parameter | Type | Default | Description |
+| --------- | ---- | ------- | ----------- |
+| t1 | string | - | Text to display on the left side |
+| t2 | string | - | Text to display on the right side |
+| img | string | - | URL/Path of the image to display in the center |
+| textColor | string | "#000000" | Color of the text |
+| borderColor | string | "#000000" | Color of the bottom border |
+
+Returns a TextHover component that displays two text elements with a hoverable image between them.
+
+## Import
+
+```jsx
+import { TextHover } from "dimension-js";
+```
+
+## Example
+
+```jsx
+<div className="w-full h-screen flex flex-col items-center justify-center bg-black text-white overflow-hidden">
+   <TextHover t1="Dimension" t2="JS" img="https://i.pinimg.com/736x/b1/fd/b6/b1fdb64315646cfffc75f397e962785a.jpg" />
+   <TextHover t1="Library" t2="" img="https://i.pinimg.com/736x/b1/fd/b6/b1fdb64315646cfffc75f397e962785a.jpg" />
+</div>
+```
+
+## Customization
+
+```jsx
+<div className="w-full h-screen flex flex-col items-center justify-center bg-black text-white overflow-hidden">
+   <TextHover t1="Dimension" t2="JS" img="https://i.pinimg.com/736x/b1/fd/b6/b1fdb64315646cfffc75f397e962785a.jpg" textColor="white" borderColor="white" />
+   <TextHover t1="Library" t2="" img="https://i.pinimg.com/736x/b1/fd/b6/b1fdb64315646cfffc75f397e962785a.jpg" textColor="white" borderColor="white" />
+</div>
+```
+

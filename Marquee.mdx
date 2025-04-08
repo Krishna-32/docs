@@ -1,0 +1,40 @@
+---
+title: 'Marquee'
+description: "A component that creates an animated marquee/ticker effect with text that scrolls horizontally in a continuous loop.
+<br/> <br/>
+The text animation smoothly scrolls at a configurable speed and automatically pauses when the marquee is not visible in the viewport for better performance."
+---
+
+## Parameters
+
+The Marquee component accepts the following props:
+
+| Parameter | Type | Default | Description |
+| --------- | ---- | ------- | ----------- |
+| text | string | - | The text content to display in the marquee |
+| strokeColor | string | "#d5d4d3" | The color of the line stroke |
+
+Returns an SVG element containing an animated path that responds to mouse movement.
+
+## Import
+
+```jsx
+import { Marquee } from "dimension-js";
+```
+
+## Example
+
+```jsx
+<div className="w-full h-screen flex items-center justify-center bg-black text-white text-5xl">
+   <Marquee text='DimensionJS' />
+</div>
+```
+
+## Customization
+
+```jsx
+<div className="w-full h-screen flex items-center justify-center bg-black text-white text-5xl">
+  <Marquee text='DimensionJS' speed={100} gap='2rem' />
+</div>
+```
+

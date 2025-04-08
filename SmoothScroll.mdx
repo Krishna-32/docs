@@ -1,0 +1,38 @@
+---
+title: 'Smooth Scroll'
+description: "A component that adds smooth scrolling functionality using Locomotive Scroll."
+---
+  
+
+## Parameters
+The SmoothScroll component accepts the following props:
+
+| Parameter | Type | Default | Description |
+| --------- | ---- | ------- | ----------- |
+| children | React.ReactNode | - | The content to enable smooth scrolling on |
+
+Returns a wrapper component that enables smooth scrolling functionality on its children using Locomotive Scroll.
+
+## Import
+
+```jsx
+import { SmoothScroll } from "dimension-js";
+```
+
+## Example
+
+```jsx
+<SmoothScroll>
+  <div className="w-full h-screen flex items-center justify-center bg-black text-white text-5xl">
+    <h1>DimensionJS</h1>
+  </div>
+  <div className="w-full h-screen flex items-center justify-center bg-white text-black text-5xl">
+    <h1>DimensionJS</h1>
+  </div>
+</SmoothScroll>
+```
+
+
+
+
+
