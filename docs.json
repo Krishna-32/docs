@@ -32,7 +32,7 @@
       "anchors": [
         {
           "anchor": "Website",
-          "href": "https://mintlify.com/docs",
+          "href": "https://dimension-js.vercel.app/",
           "icon": "browser"
         },
         {
@@ -67,9 +67,9 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "instagram": "https://www.instagram.com/krix.naa/",
+      "github": "https://github.com/Krishna-32/Dimensions.js",
+      "linkedin": "https://www.linkedin.com/in/krishna-guptaa/"
     }
   }
 }
